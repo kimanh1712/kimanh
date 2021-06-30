@@ -1,0 +1,67 @@
+<h1>....</h1> <!--làm tiêu đề  -->
+<p>.....</p> <!--làm đoạn chữ  -->
+<img  width="250"  src="link hình ảnh" alt="nếu ảnh lỗi sẽ hiện chữ này "> <!--chèn hình ảnh , 250 là kích thước chiều rộng cho ảnh-->
+<a href="link web">muốn đi tới đâu</a>    <!--bấm dô nhảy qua trang khác  -->
+
+<ul> hiện danh sách
+     <li>....</li> <!--các dòng trong danh sách -->
+     <li>...</li>
+</ul>
+
+ <table> <!--bảng -->
+     <thead> <!--tiêu đề của bảng  -->
+        <th>stt</th> <!--cột của bảng -->
+        <th>name</th>
+    </thead>   
+
+    <tbody>  <!--thân của bảng  -->
+        <tr>   <!--dòng 1 -->
+            <td>1</td>
+            <td>kimanh</td>
+        </tr>  
+       <tr>    <!--dòng 2  -->
+            <td>2</td>
+            <td>kimanh2</td>
+
+        </tr>
+    </tbody>   
+</table>
+
+<input type="text" > <!--điền vào-->
+<input name="answer" type="checkbox" > <!--chọn nhiều đáp án -->
+<input name="gender" type="radio"> <!--chọn giới tính-->
+
+<button>đăng ký</button> <!--tạo nút-->
+<dir>...</dir> <!--tạo khối bao quanh các phần tử khác -->
+
+<input type="submit" value="Đăng ký" > <!--tạo nút đăng ký-->
+
+<h1 title="...">miu-shop</h1> <!--hiện lên ... khi đưa chuột vào miu-shop-->
+
+
+<!-- sử dụng css với External đầu tiên tạo 1 fiel main.css bằng cấp với index.html thêm 1 thẻ link trong head-->
+<link rel="stylesheet" href="main.css"> 
+<h1>....</h1>
+<!-- bên main.css viết -->
+h1 {
+        color: red; <!--màu của chữ-->
+        forn-size:20px; <!--cỡ chữ-->
+}
+
+<!--css-->
+<!-- kiểu id là muốn chỉnh sửa dòng nào thì chỉnh dòn đó -->
+<h1 id="123">miu-shop</h1> 
+<!--bên main.css-->
+ #123 {
+     color :red;
+ }
+
+ <!-- nhiều dòng giống nhau -->
+ <h1 class="456">kim anh</h1>
+ <h1 class="456">minh đương</h1>
+ <h2 class="456">minh trí</h2>
+ <!-- bên main.css -->
+ .456 {
+     color :blue;
+     form-size:10px;
+ }
